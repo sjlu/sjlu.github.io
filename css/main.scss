@@ -67,5 +67,19 @@ hr {
     }
   }
 
+  .more {
+    font-size: 18px;
+
+    i {
+      font-size: 12px;
+      line-height: 18px;
+      margin-left: 5px;
+    }
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
   margin-bottom: 40px;
 }
