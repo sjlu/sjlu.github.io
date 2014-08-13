@@ -27,35 +27,27 @@ layout: default
 </div>
 <hr />
 <div id="about">
-  <div class="row">
-    <div class="col-md-offset-2 col-md-8">
-      <p>I'm a full stack software engineer in New York City, living in New Jersey. I've been building websites ever since I turned into a teenager and like making products that I find useful. I enjoy writing <a href="http://nodejs.org/">node.js</a>, <a href="http://angularjs.org">AngularJS</a> and <a href="http://laravel.com/">Laravel</a> applications and love the startup scene.</p>
-      <p>When I'm not working, I spend my time at the gym, cooking and being adventurous. Ever since I decided to <a href="https://medium.com/steves-health-journey/my-transformation-story-305e0e84eae4">take a stand on my weight</a>, I made my health and well-being a priority. </p>
-      <p>I graduated with a degree in ECE from <a href="http://www.rutgers.edu/">Rutgers</a> and currently work for an awesome startup, <a href="http://abacus.com">Abacus</a>. If you want more of the nitty-gritties, check out my <a href="https://www.linkedin.com/in/stevenlu">LinkedIn</a> profile.</p>
-    </div>
-  </div>
+  <p>I'm a full stack software engineer in New York City, living in New Jersey. I've been building websites ever since I turned into a teenager and like making products that I find useful. I enjoy writing <a href="http://nodejs.org/">node.js</a>, <a href="http://angularjs.org">AngularJS</a> and <a href="http://laravel.com/">Laravel</a> applications and love the startup scene.</p>
+  <p>When I'm not working, I spend my time at the gym, cooking and being adventurous. Ever since I decided to <a href="https://medium.com/steves-health-journey/my-transformation-story-305e0e84eae4">take a stand on my weight</a>, I made my health and well-being a priority. </p>
+  <p>I graduated with a degree in ECE from <a href="http://www.rutgers.edu/">Rutgers</a> and currently work for an awesome startup, <a href="http://abacus.com">Abacus</a>. If you want more of the nitty-gritties, check out my <a href="https://www.linkedin.com/in/stevenlu">LinkedIn</a> profile.</p>
 </div>
 <hr />
 <div id="projects">
 
 </div>
 <hr />
-<div id="list-of-posts">
-  <div class="row">
-    <div class="col-md-offset-2 col-md-8 text-center">
-      <h2 class="">latest posts</h2>
-      <br />
-      {% for post in site.posts limit:3 %}
-        <div class="headline">
-          <small>{{ post.date | date: "%b %-d, %Y" }}</small>
-          <div><a href="{{ post.url | prepend: site.baseurl }}" class="title">{{ post.title }}</a></div>
-          <small>{{ post.description | strip_html | truncatewords: 15 }}</small>
-        </div>
-      {% endfor %}
-      <br />
-      <a class="more" href="{{ "/posts" | prepend: site.baseurl }}">read more <i class="fa fa-long-arrow-right"></i></a>
+<div id="list-of-posts" class="text-center">
+  <h2 class="">latest posts</h2>
+  <br />
+  {% for post in site.posts limit:3 %}
+    <div class="headline">
+      <small>{{ post.date | date: "%b %-d, %Y" }}</small>
+      <div><a href="{{ post.url | prepend: site.baseurl }}" class="title">{{ post.title }}</a></div>
+      <small>{{ post.description | strip_html | truncatewords: 15 }}</small>
     </div>
-  </div>
+  {% endfor %}
+  <br />
+  <a class="more" href="{{ "/posts" | prepend: site.baseurl }}">read more <i class="fa fa-long-arrow-right"></i></a>
 </div>
 <br />
 <br />
