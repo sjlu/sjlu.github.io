@@ -47,7 +47,7 @@ layout: default
       {% for post in site.posts %}
         <div class="post text-center">
           <small>{{ post.date | date: "%b %-d, %Y" }}</small>
-          <div><a href="" class="title">{{ post.title }}</a></div>
+          <div><a href="{{ post.url | prepend: site.baseurl }}" class="title">{{ post.title }}</a></div>
           <small>{{ post.description | strip_html | truncatewords: 15 }}</small>
         </div>
       {% endfor %}
