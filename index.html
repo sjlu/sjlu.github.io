@@ -48,7 +48,7 @@ layout: default
         <div class="post text-center">
           <small>{{ post.date | date: "%b %-d, %Y" }}</small>
           <div><a href="" class="title">{{ post.title }}</a></div>
-          <small>{{ post.content | strip_html | truncatewords: 15 }}</small>
+          <small>{{ post.description | strip_html | truncatewords: 15 }}</small>
         </div>
       {% endfor %}
     </div>
