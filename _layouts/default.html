@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html>
+  <head>
+      <meta http-equiv="Content-Type" context="text/html; charset=utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-  {% include head.html %}
+      <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+      <meta name="description" content="{{ site.title }} -- {{ site.description }}">
 
-    <body>
+      <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrap">
+      <link rel="stylesheet" type="text/css" href="{{ "/fonts/fonts.css" | prepend: site.baseurl }}">
+      <link rel="stylesheet" href="{{ "/vendor/bootstrap/css/bootstrap.min.css" | prepend: site.baseurl }}">
+      <link rel="stylesheet" href="{{ "/vendor/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
+      <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  </head>
+  <body>
+    <div class="container">
       {{ content }}
-      </div>
     </div>
-
-    {% include footer.html %}
-
-    </body>
+  </body>
 </html>
