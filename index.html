@@ -34,3 +34,23 @@ layout: default
     </div>
   </div>
 </div>
+<hr />
+<div id="projects">
+
+</div>
+<hr />
+<div id="posts">
+  <div class="row">
+    <div class="col-md-offset-2 col-md-8">
+      <h2>Writing</h2>
+      <br />
+      {% for post in site.posts %}
+        <div class="post">
+          <small>{{ post.date | date: "%b %-d, %Y" }}</small>
+          <div class="title">{{ post.title }}</div>
+          <small>{{ post.content | strip_html | truncatewords: 15 }}</small>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
