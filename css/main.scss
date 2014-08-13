@@ -4,6 +4,8 @@
 body {
   font-family: "Lato";
   font-weight: 300;
+
+  font-size: 18px;
 }
 
 #title {
@@ -51,8 +53,8 @@ hr {
   }
 }
 
-#posts {
-  .post {
+#list-of-posts {
+  .headline {
     margin: 20px 0;
 
     font-size: 18px;

@@ -1,15 +1,13 @@
 ---
-layout: default
+layout: page
 ---
-<br />
-<br />
-<div id="posts">
+<div id="list-of-posts">
   <div class="row">
     <div class="col-md-offset-2 col-md-8 text-center">
       <h2 class="">latest posts</h2>
       <br />
       {% for post in site.posts %}
-        <div class="post">
+        <div class="headline">
           <small>{{ post.date | date: "%b %-d, %Y" }}</small>
           <div><a href="{{ post.url | prepend: site.baseurl }}" class="title">{{ post.title }}</a></div>
           <small>{{ post.description | strip_html | truncatewords: 15 }}</small>
@@ -18,5 +16,3 @@ layout: default
     </div>
   </div>
 </div>
-<br />
-<br />
