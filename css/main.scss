@@ -53,7 +53,7 @@ hr {
 
 #posts {
   .post {
-    margin: 10px 0;
+    margin: 20px 0;
 
     font-size: 18px;
 
@@ -62,8 +62,8 @@ hr {
       font-weight: 400;
     }
 
-    &:hover {
-      background-color: gray;
+    &:first-child {
+      margin-top: 0px;
     }
   }
 
