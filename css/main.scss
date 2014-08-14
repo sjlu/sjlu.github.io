@@ -2,7 +2,7 @@
 ---
 
 body {
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-weight: 300;
 }
 
@@ -41,11 +41,15 @@ body {
 
 hr {
   margin: 40px 0;
+
+  &.no-margin {
+    margin: 0;
+  }
 }
 
 #about {
   p {
-    font-size: 24px;
+    font-size: 22px;
   }
 }
 
@@ -53,10 +57,10 @@ hr {
   .headline {
     margin: 20px 0;
 
-    font-size: 18px;
+    font-size: 20px;
 
     .title {
-      font-size: 20px;
+      font-size: 22px;
       font-weight: 400;
     }
 
@@ -98,5 +102,57 @@ hr {
     font-family: 'PT Serif', Georgia, 'Times New Roman', serif;
     font-weight: 400;
     font-size: 18px;
+  }
+}
+
+nav {
+  img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .title {
+    line-height: 32px;
+    font-size: 18px;
+    vertical-align: middle;
+    margin-left: 6px;
+  }
+
+  .nav {
+    li {
+      a {
+        color: black;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  &.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+
+    .navbar-collapse {
+      border-color: transparent;
+    }
+  }
+
+  .navbar-brand {
+    padding: 10px 15px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &.navbar {
+    margin-bottom: 0;
+  }
+
+  .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
