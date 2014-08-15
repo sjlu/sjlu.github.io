@@ -9,7 +9,7 @@ This Facebook application was built initially out of spite of another applicatio
 
 ![screenshot](screenshot-1.png)
 
-During the lifespan of the product, it had over 8 million users, half of which were active per month. On average, Music had 500 million listens per year and averaged near 40 requests per second. I also received contracted and received help from [Russell Frank](http://russfrank.us) and [Frances Soong](http://francessoong.com).
+During the lifespan of the product, it had over 8 million users, half of which were active per month. On average, Music had 500 million listens per year and averaged near 40 requests per second. I also received contracted and received help from [Russell Frank](http://russfrank.us), [Frances Soong](http://francessoong.com) and [Shy Ruparel](http://shyruparel.com).
 
 ![screenshot](screenshot-2.png)
 
