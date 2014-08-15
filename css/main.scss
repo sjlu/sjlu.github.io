@@ -21,6 +21,7 @@ nav {
   img {
     width: 32px;
     height: 32px;
+    box-shadow: rgba(0,0,0,0.3) 0 0 8px;
   }
 
   .title {
@@ -71,6 +72,12 @@ nav {
 
 // Homepage
 #title {
+  .avatar {
+    img {
+      box-shadow: rgba(0,0,0,0.3) 0 0 15px;
+    }
+  }
+
   .name {
     margin-top: 30px;
 
@@ -118,6 +125,13 @@ nav {
   img {
     max-width: 100%;
     height: auto;
+    box-shadow: rgba(0,0,0,0.3) 0 0 0;
+
+    @include transition (all 0.4s ease);
+
+    &:hover {
+      box-shadow: rgba(0,0,0,0.3) 0 0 25px;
+    }
   }
 }
 
@@ -209,6 +223,7 @@ nav {
       display: block;
       max-width: 100%;
       height: auto;
+      box-shadow: rgba(0,0,0,0.3) 0 0 15px;
     }
   }
 }
