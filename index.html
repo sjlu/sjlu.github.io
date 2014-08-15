@@ -41,7 +41,7 @@ layout: default
       {% if page.categories contains "project" and page.categories contains "featured" %}
         <div class="col-md-3 text-center">
           <a href="{{ page.url | prepend: site.baseurl }}">
-            <img class="img-responsive img-rounded" src="{{ page.dir | prepend: site.baseurl | append: "thumb.png" }}" />
+            <img class="img-rounded" src="{{ page.dir | prepend: site.baseurl | append: "thumb.png" }}" />
           </a>
         </div>
       {% endif %}
