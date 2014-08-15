@@ -1,7 +1,7 @@
 ---
 layout: page
 resource: true
-categories: [work, featured]
+categories: [project, featured]
 title: "Music App"
 ---
 

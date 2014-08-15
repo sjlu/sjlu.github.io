@@ -1,0 +1,15 @@
+---
+layout: page
+---
+
+<div class="row">
+  {% for page in site.pages %}
+    {% if page.categories contains "project" %}
+      <div class="col-md-3 text-center">
+        <a href="{{ page.url | prepend: site.baseurl }}">
+          <img class="img-responsive img-rounded" src="{{ page.dir | prepend: site.baseurl | append: "thumb.png" }}" />
+        </a>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>

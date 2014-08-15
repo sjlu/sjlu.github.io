@@ -33,12 +33,12 @@ layout: default
 </div>
 <hr />
 <div id="projects">
-  <h2 class="text-center">work i've done</h2>
+  <h2 class="text-center">projects</h2>
   <br />
   <br />
   <div class="row">
     {% for page in site.pages %}
-      {% if page.categories contains "work" and page.categories contains "featured" %}
+      {% if page.categories contains "project" and page.categories contains "featured" %}
         <div class="col-md-3 text-center">
           <a href="{{ page.url | prepend: site.baseurl }}">
             <img class="img-responsive img-rounded" src="{{ page.dir | prepend: site.baseurl | append: "thumb.png" }}" />
@@ -55,7 +55,7 @@ layout: default
 </div>
 <hr />
 <div id="list-of-posts" class="text-center">
-  <h2 class="">latest posts</h2>
+  <h2 class="">posts</h2>
   <br />
   {% for post in site.posts limit:3 %}
     <div class="headline">
