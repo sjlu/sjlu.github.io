@@ -38,7 +38,7 @@ layout: default
   <div class="row">
     {% assign projects_on_page = 0 %}
     {% for page in site.pages %}
-      {% if page.categories contains "project" and page.categories contains "featured" and projects_on_page < 4 %}
+      {% if page.categories contains "project" and page.categories contains "featured" and projects_on_page < 3 %}
         {% assign projects_on_page = projects_on_page + 1 %}
         <div class="col-md-3 text-center">
           <a href="{{ page.url | prepend: site.baseurl }}">
