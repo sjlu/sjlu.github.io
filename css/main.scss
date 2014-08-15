@@ -107,6 +107,27 @@ hr {
   }
 }
 
+.project {
+  .project-header {
+    margin-bottom: 20px;
+  }
+
+  .project-content {
+    font-size: 22px;
+
+    p {
+      margin-bottom: 17px;
+    }
+
+    img {
+      margin: 10px 0;
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
+
 nav {
   img {
     width: 32px;
