@@ -97,8 +97,11 @@ nav {
 
     margin: 0 10px;
 
+    @include transition (all 0.2s ease);
+
     &:hover {
       color: black;
+      text-decoration: none;
     }
   }
 }
