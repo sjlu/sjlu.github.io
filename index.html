@@ -27,7 +27,8 @@ layout: default
 </div>
 <hr />
 <div id="about">
-  {% markdown about.md %}
+  {% capture about %}{% include about.md %}{% endcapture %}
+  {{ about | markdownify }}
 </div>
 <hr />
 <div id="projects">
