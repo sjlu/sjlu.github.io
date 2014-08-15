@@ -129,6 +129,8 @@ p {
     height: auto;
     box-shadow: rgba(0,0,0,0.3) 0 0 10px;
 
+    margin: 10px 0;
+
     @include transition (all 0.4s ease);
 
     &:hover {
