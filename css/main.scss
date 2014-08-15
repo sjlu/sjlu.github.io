@@ -20,12 +20,6 @@ hr {
 }
 
 nav {
-  img {
-    width: 32px;
-    height: 32px;
-    box-shadow: rgba(0,0,0,0.3) 0 0 8px;
-  }
-
   .title {
     line-height: 32px;
     font-size: 18px;
@@ -57,8 +51,21 @@ nav {
   .navbar-brand {
     padding: 8px 15px;
 
+    img {
+      width: 32px;
+      height: 32px;
+      box-shadow: rgba(0,0,0,0.3) 0 0 5px;
+      @include transition (all 0.2s ease);
+    }
+
     &:hover {
-      text-decoration: underline;
+      img {
+        box-shadow: rgba(0,0,0,0.3) 0 0 9px;
+      }
+
+      .title {
+        text-decoration: underline;
+      }
     }
   }
 
