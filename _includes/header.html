@@ -15,8 +15,13 @@
 
     <div class="collapse navbar-collapse" id="navbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="{{ "/posts" | prepend: site.baseurl }}">Posts</a></li>
-        <li><a href="{{ "/projects" | prepend: site.baseurl }}">Projects</a></li>
+        {% for link in site.navigation %}
+          {% assign active = nil %}
+          {% if page.url contains link.url %}
+            {% assign active = true %}
+          {% endif %}
+          <li class="{% if active %}active{% endif %}"><a href="{{ link.url | prepend: site.baseurl }}">{{link.title}}</a></li>
+        {% endfor %}
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

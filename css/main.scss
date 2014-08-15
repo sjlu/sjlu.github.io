@@ -27,7 +27,7 @@ nav {
     margin-left: 6px;
   }
 
-  .nav {
+  .navbar-nav {
     li {
       a {
         color: black;
@@ -45,6 +45,16 @@ nav {
 
     .navbar-collapse {
       border-color: transparent;
+    }
+
+    .navbar-nav>.active>a {
+      background-color: transparent;
+      color: inherit;
+      font-weight: 400;
+
+      &:hover {
+        background-color: transparent;
+      }
     }
   }
 

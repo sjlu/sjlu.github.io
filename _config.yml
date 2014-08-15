@@ -13,3 +13,10 @@ permalink: pretty
 encoding: "UTF-8"
 sass:
   style: :compressed
+
+# Nav
+navigation:
+  - title: Posts
+    url: /posts
+  - title: Projects
+    url: /projects
