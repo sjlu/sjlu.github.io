@@ -72,6 +72,12 @@ nav {
   }
 }
 
+p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 17px;
+}
+
 // Homepage
 #title {
   .avatar {
@@ -115,13 +121,7 @@ nav {
   }
 }
 
-#about {
-  p {
-    font-size: 22px;
-
-    margin-bottom: 17px;
-  }
-}
+#about {}
 
 #projects {
   img {
@@ -214,12 +214,6 @@ nav {
   }
 
   .project-content {
-    font-size: 20px;
-
-    p {
-      margin-bottom: 17px;
-    }
-
     img {
       margin: 30px 0;
       display: block;

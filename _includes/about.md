@@ -2,4 +2,4 @@ I'm a full stack software engineer in New York City, living in New Jersey. I've 
 
 When I'm not working, I spend my time at the gym, cooking and being adventurous. Ever since I decided to [take a stand on my weight](https://medium.com/steves-health-journey/my-transformation-story-305e0e84eae4), I made my health and well-being a priority.
 
-I graduated with a degree in ECE from [Rutgers University](http://www.rutgers.edu/) and currently work for an awesome startup, [Abacus](https://abacus.com). If you want more of the nitty-gritties, check out my [LinkedIn](https://www.linkedin.com/in/stevenlu) profile.
+I graduated with a degree in ECE from [Rutgers University](http://www.rutgers.edu/) and currently work for an awesome startup, [Abacus](https://abacus.com). If you want more of the nitty-gritties, check out my [LinkedIn](https://www.linkedin.com/in/stevenlu).
