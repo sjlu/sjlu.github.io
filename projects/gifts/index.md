@@ -11,7 +11,7 @@ Friend Gifter won "Best use of Heroku" and "Best Overall Application" during Fac
 
 The icon design and background was made with help from [Kenneth Jaffe](http://kennethjaffe.com/). The source code can found on [GitHub](https://github.com/sjlu/fb-bday-gifts).
 
-![screenshot](01.png)
-![screenshot](02.png)
-![screenshot](03.png)
-![screenshot](04.png)
+![screenshot](01.jpg)
+![screenshot](02.jpg)
+![screenshot](03.jpg)
+![screenshot](04.jpg)

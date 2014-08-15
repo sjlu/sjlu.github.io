@@ -12,5 +12,5 @@ and [Wayne Sun](https://www.linkedin.com/in/uusunn).
 
 More information and source code can be found on [GitHub](https://github.com/sjlu/hacknys2012).
 
-![screenshot](stevenlu-00.png)
-![screenshot](stevenlu-01.png)
+![screenshot](stevenlu-00.jpg)
+![screenshot](stevenlu-01.jpg)

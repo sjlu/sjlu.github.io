@@ -13,5 +13,5 @@ suggestions, it tried to create the shortest path possible amongst them.
 Runr was built along with [Russell Frank](http://russfrank.us)
 and [Wayne Sun](https://www.linkedin.com/in/uusunn) and can be found on [GitHub](https://github.com/sjlu/runr).
 
-![screenshot](01.png)
-![screenshot](02.png)
+![screenshot](01.jpg)
+![screenshot](02.jpg)
