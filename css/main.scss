@@ -5,7 +5,7 @@
 
 // Globals
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", serif;
   font-weight: 300;
 }
 
@@ -154,23 +154,40 @@ nav {
 
 // Post page
 .post {
+  font-family: "Lato", serif;
+  font-weight: 400;
+
   .post-header {
     h1 {
-      margin-top: 0;
       font-weight: 700;
+      margin-top: 0;
     }
 
     p {
+      font-family: "Merriweather", sans-serif;
+      font-style: italic;
       font-weight: 400;
-      font-size: 16px;
-      margin-bottom: 0;
+      font-size: 18px;
+
+      &.meta {
+        color: gray;
+        margin-bottom: 0;
+        font-weight: 300;
+        font-size: 16px;
+      }
     }
   }
 
   .post-content {
-    font-family: 'PT Serif', Georgia, 'Times New Roman', serif;
-    font-weight: 400;
-    font-size: 18px;
+    p {
+      font-family: "Merriweather", sans-serif;
+      font-weight: 300;
+      font-size: 16px;
+    }
+
+    pre {
+      margin: 20px 0;
+    }
   }
 }
 
