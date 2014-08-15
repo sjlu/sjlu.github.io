@@ -16,7 +16,7 @@ hr {
     margin: 0;
   }
 
-  box-shadow: rgba(238,238,238,1) 0 2px 8px;
+  box-shadow: rgba(238,238,238,1) 0 2px 4px;
 }
 
 nav {
@@ -143,10 +143,10 @@ p {
   .headline {
     margin: 20px 0;
 
-    font-size: 20px;
+    font-size: 18px;
 
     .title {
-      font-size: 22px;
+      font-size: 20px;
       font-weight: 400;
     }
 
@@ -200,7 +200,8 @@ p {
     p {
       font-family: "Merriweather", sans-serif;
       font-weight: 300;
-      font-size: 16px;
+      font-size: 14px;
+      line-height: 1.8;
     }
 
     pre {
