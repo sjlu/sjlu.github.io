@@ -40,7 +40,7 @@ layout: default
     {% for page in site.pages %}
       {% if page.categories contains "project" and page.categories contains "featured" and projects_on_page < 3 %}
         {% assign projects_on_page = projects_on_page + 1 %}
-        <div class="col-md-3 text-center">
+        <div class="col-md-3 col-sm-6 text-center">
           <a href="{{ page.url | prepend: site.baseurl }}">
             <img class="img-rounded" src="{{ page.dir | prepend: site.baseurl | append: "thumb.png" }}" />
           </a>
