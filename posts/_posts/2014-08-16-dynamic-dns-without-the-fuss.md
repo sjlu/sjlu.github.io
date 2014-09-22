@@ -26,47 +26,47 @@ I'll be installing this on a Debian Wheezy machine, but can be easily installed 
 
 * First download a copy of [ddclient](http://sourceforge.net/projects/ddclient/)
 
-    wget "http://downloads.sourceforge.net/project/ddclient/ddclient/ddclient-3.8.2/ddclient-3.8.2.tar.bz2?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fddclient%2F&ts=1408222484&use_mirror=softlayer-dal" -O ddclient-3.8.2.tar.bz2
+        wget "http://downloads.sourceforge.net/project/ddclient/ddclient/ddclient-3.8.2/ddclient-3.8.2.tar.bz2?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fddclient%2F&ts=1408222484&use_mirror=softlayer-dal" -O ddclient-3.8.2.tar.bz2
 
 * Extract the file you just downloaded.
 
-    tar -xvf ddclient-3.8.2.tar.bz2
-    cd ddclient-3.8.2
+        tar -xvf ddclient-3.8.2.tar.bz2
+        cd ddclient-3.8.2
 
 * We need to patch the executable with compatability to access the CloudFront API.
 
-    wget https://gist.githubusercontent.com/sjlu/f642da315be9751eee48/raw/cef253bd137a345a09b74d509a1d083dee357b7a/cloudflare-ddclient.patch
-    patch > cloudflare-ddclient.patch
+        wget https://gist.githubusercontent.com/sjlu/f642da315be9751eee48/raw/cef253bd137a345a09b74d509a1d083dee357b7a/cloudflare-ddclient.patch
+        patch > cloudflare-ddclient.patch
 
 * Install like normal onto your system.
 
-    cp ddclient /usr/sbin/
-    mkdir /etc/ddclient
-    mkdir /var/cache/ddclient
-    cp sample-etc_ddclient.conf /etc/ddclient/ddclient.conf
-    cp sample-etc_rc.d_init.d_ddclient.ubuntu /etc/init.d/ddclient
-    update-rc.d ddclient defaults
+        cp ddclient /usr/sbin/
+        mkdir /etc/ddclient
+        mkdir /var/cache/ddclient
+        cp sample-etc_ddclient.conf /etc/ddclient/ddclient.conf
+        cp sample-etc_rc.d_init.d_ddclient.ubuntu /etc/init.d/ddclient
+        update-rc.d ddclient defaults
 
 * Modify the config file with CloudFront info.
 
-    vim /etc/ddclient/ddclient.conf
+        vim /etc/ddclient/ddclient.conf
 
 * Put this at the end of the file.
 
-    use=web, web=checkip.dyndns.com/, web-skip='IP Address'
-    ##
-    ## Cloudflare
-    ##
-    protocol=cloudflare,                            \
-    server=www.cloudflare.com,                      \
-    zone=stevenlu.com,                              \
-    login=cloudfront_email_address,                 \
-    password=cloudfront_api_key                     \
-    subdomain.stevenlu.com
+        use=web, web=checkip.dyndns.com/, web-skip='IP Address'
+        ##
+        ## Cloudflare
+        ##
+        protocol=cloudflare,                            \
+        server=www.cloudflare.com,                      \
+        zone=stevenlu.com,                              \
+        login=cloudfront_email_address,                 \
+        password=cloudfront_api_key                     \
+        subdomain.stevenlu.com
 
 * Check to see if it runs alright.
 
-    sudo /etc/init.d/ddclient start
+        sudo /etc/init.d/ddclient start
 
 * Make sure it updated the IP address under the "A" record you created in your CloudFlare account.
 
