@@ -34,7 +34,6 @@ layout: default
 <div id="projects">
   <h2 class="text-center">projects</h2>
   <br />
-  <br />
   <div class="row">
     {% for page in site.pages | sort:title %}
       {% if page.categories contains "project" and page.categories contains "featured" %}
@@ -54,7 +53,7 @@ layout: default
 </div>
 <hr />
 <div id="posts" class="text-center">
-  <h2 class="">posts</h2>
+  <h2 class="text-center">posts</h2>
   <br />
   {% for post in site.posts limit:3 %}
     <div class="headline">
