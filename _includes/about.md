@@ -1,4 +1,4 @@
-I'm a full stack software engineer in New York City, living in New Jersey. I've been building websites ever since I became a teenager and have made products that are engaging. I enjoy writing [node.js](http://nodejs.org/), [AngularJS](http://angularjs.org) and [Laravel](http://laravel.com/) applications and thrive in startup environments.
+I'm a full stack software engineer in New York City. I've been building websites and making engaging products ever since I was a teenager. I enjoy writing [node.js](http://nodejs.org/), [AngularJS](http://angularjs.org) and [Laravel](http://laravel.com/) applications and thrive in startup environments.
 
 When I'm not working, I spend my time at the gym, cooking and being adventurous. Ever since I decided to [take a stand on my weight](https://medium.com/steves-health-journey/my-transformation-story-305e0e84eae4), I made my health and well-being a priority.
 
