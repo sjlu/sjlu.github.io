@@ -9,6 +9,7 @@ github_username:  sjlu
 
 # Build settings
 markdown: kramdown
+highlighter: pygments
 permalink: pretty
 encoding: "UTF-8"
 sass:
