@@ -3,7 +3,7 @@ layout: post
 title: The 2015 Race Season
 ---
 
-This year I will be *attempting* to complete **3 trifectas** (9 races) [Spartan races](http://spartan.com) and another **3** [Tough Mudder](http://toughmudder.com) races. I know, it's crazy. Perhaps even impossible. But the more I can do with friends, the better!
+This year I will be *attempting* to complete **3 trifectas** or 9 [Spartan races](http://spartan.com) and another **3** [Tough Mudder](http://toughmudder.com) races. I know, it's crazy. Perhaps even impossible. But the more I can do with friends, the better!
 
 **Saturday, April 18, 2015** \\
 [Tri-State New Jersey Spartan Beast](http://www.spartan.com/events/?event_id=494/tri-state-new-jersey-beast)
