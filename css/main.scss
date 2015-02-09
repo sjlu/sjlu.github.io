@@ -110,7 +110,9 @@ p {
   line-height: 1.5;
   margin-bottom: 17px;
 
-  a:hover {
+  a:hover,
+  a:active,
+  a:focus {
     text-decoration: none;
     background-image: linear-gradient(to bottom, rgba(42,100,150,0) 50%, rgba(42,100,150,0.6) 50%);
     background-repeat:repeat-x;
