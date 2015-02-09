@@ -30,12 +30,14 @@ h1,h2,h3,h4,h5,h6 {
 
 nav {
   font-family: "freight-sans-pro", sans-serif;
+  font-size: 16px;
 
   .title {
     line-height: 32px;
     font-size: 18px;
     vertical-align: middle;
     margin-left: 6px;
+    font-weight: 500;
   }
 
   .navbar-nav {
@@ -105,7 +107,7 @@ nav {
 
 p {
   font-size: 20px;
-  line-height: 1.6;
+  line-height: 1.5;
   margin-bottom: 17px;
 }
 
@@ -244,12 +246,9 @@ p {
   }
 
   .post-content {
-    font-weight: 300;
-    font-size: 17px;
-
-    p {
-      line-height: 1.5;
-    }
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 17px;
 
     ul, ol {
       padding-left: 24px;
