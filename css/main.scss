@@ -109,7 +109,16 @@ p {
   font-size: 20px;
   line-height: 1.5;
   margin-bottom: 17px;
+
+  a:hover {
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, rgba(42,100,150,0) 50%, rgba(42,100,150,0.6) 50%);
+    background-repeat:repeat-x;
+    background-size: 2px 2px;
+    background-position: 0 21px;
+  }
 }
+
 
 // Homepage
 #title {
@@ -194,6 +203,14 @@ p {
 
     &:first-child {
       margin-top: 0px;
+    }
+
+    a:hover {
+      text-decoration: none;
+      background-image: linear-gradient(to bottom, rgba(42,100,150,0) 50%, rgba(42,100,150,0.6) 50%);
+      background-repeat:repeat-x;
+      background-size: 2px 2px;
+      background-position: 0 26px;
     }
   }
 }
