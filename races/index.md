@@ -3,7 +3,11 @@ layout: post
 title: The 2015 Race Season
 ---
 
-This year I will be *attempting* to complete **3 trifectas** or 9 [Spartan races](http://spartan.com) and another **3** [Tough Mudder](http://toughmudder.com) races. I know, it's crazy. Perhaps even impossible. But the more I can do with friends, the better!
+This year I will be *attempting* to complete **3 trifectas** or 9 [Spartan races](http://spartan.com) and another **3** [Tough Mudder](http://toughmudder.com) races. I know, it's crazy. Perhaps even impossible. But what'd makes these races even more fun is if I do it with friends! So let me know if you want to join me and I promise I'll run with you the entire time.
+
+For those who don't know what Spartan races are, they are obstacle course races that usually take place on a mountain. The **beast** is a ~15 mile course, the **super** being ~8 miles and the **sprint** being ~5 miles.
+
+Here's my event list. I have not planned my Tough Mudder races yet since they are later in the year. And of course, if you have a race you'd like me to do, send it over!
 
 **Saturday, April 18, 2015** \\
 [Tri-State New Jersey Spartan Beast](http://www.spartan.com/events/?event_id=494/tri-state-new-jersey-beast)
