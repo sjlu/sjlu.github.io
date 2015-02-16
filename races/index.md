@@ -12,7 +12,7 @@ Here's my event list. I have not planned my Tough Mudder races yet since they ar
 **Saturday, April 18, 2015** \\
 [Tri-State New Jersey Spartan Beast](http://www.spartan.com/events/?event_id=494/tri-state-new-jersey-beast) \\
 Team name: **Can't Touch This** \\
-Start time: 9am
+Start time: 9am - 10am \\
 Running with: Jason Caetano, Reema Sil
 
 **Saturday, May 9, 2015** \\
