@@ -12,15 +12,17 @@ Here's my event list. I have not planned my Tough Mudder races yet since they ar
 **Saturday, April 18, 2015** \\
 [Tri-State New Jersey Spartan Beast](http://www.spartan.com/events/?event_id=494/tri-state-new-jersey-beast) \\
 Team name: **Can't Touch This** \\
-Start time: 9am - 10am \\
-Running with: Jason Caetano, Reema Sil
+Running with: Jason Caetano, Reema Sil \\
+Start time: 9am - 10am
 
 **Saturday, May 9, 2015** \\
 [Citi Field Spartan Sprint](http://www.spartan.com/events/?event_id=420/citi-field-sprint-%28stadium%29)
 
-**Saturday, May 30, 2015** \\
+**Sunday, May 31, 2015** \\
 [Tri-State New York Spartan Sprint](http://www.spartan.com/events/?event_id=423/tri-state-new-york-sprint) \\
-Running with: Philip Quiza, Paul Shi
+Team name: **Two And A Half Asians** \\
+Running with: Philip Quiza, Paul Shi \\
+Start time: 11:15am - 12:45pm
 
 **Saturday, June 6, 2015** \\
 [Tri-State New York Spartan Sprint #2](http://www.spartan.com/events/?event_id=424/tri-state-new-york-sprint-#2)
