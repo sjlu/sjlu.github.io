@@ -39,6 +39,9 @@ Start time: 11:15am - 12:45pm
 **Saturday, August 1, 2015** \\
 [Western New York Tough Mudder](https://toughmudder.com/events/2015-western-new-york)
 
+**Saturday, August 29, 2015** \\
+[Boston Spartan Sprint](http://www.spartan.com/events/?event_id=505/boston-sprint)
+
 **Saturday, September 12, 2015** \\
 [Tri-State New Jersey Spartan Super](http://www.spartan.com/events/?event_id=568/tri-state-new-jersey-super)
 
