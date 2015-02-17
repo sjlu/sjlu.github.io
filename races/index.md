@@ -21,7 +21,7 @@ Start time: 9am - 10am
 **Sunday, May 31, 2015** \\
 [Tri-State New York Spartan Sprint](http://www.spartan.com/events/?event_id=423/tri-state-new-york-sprint) \\
 Team name: **Two And A Half Asians** \\
-Running with: Philip Quiza, Paul Shi \\
+Running with: Phillip Quiza, Paul Shi \\
 Start time: 11:15am - 12:45pm
 
 **Saturday, June 6, 2015** \\
