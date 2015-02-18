@@ -37,7 +37,8 @@ Start time: 11:15am - 12:45pm
 [Pennsylvania Spartan Sprint #2](http://www.spartan.com/events/?event_id=474/pennsylvania-sprint-#2)
 
 **Saturday, August 1, 2015** \\
-[Western New York Tough Mudder](https://toughmudder.com/events/2015-western-new-york)
+[Western New York Tough Mudder](https://toughmudder.com/events/2015-western-new-york) \\
+Running with: Liz Jamora, Eric Cunningham
 
 **Saturday, August 29, 2015** \\
 [Boston Spartan Sprint](http://www.spartan.com/events/?event_id=505/boston-sprint)
