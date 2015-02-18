@@ -16,7 +16,7 @@ Running with: Jason Caetano, Reema Sil \\
 Start time: 9am - 10am
 
 **Saturday, May 9, 2015** \\
-[Citi Field Spartan Sprint](http://www.spartan.com/events/?event_id=420/citi-field-sprint-%28stadium%29)
+[Citi Field Spartan Sprint](http://www.spartan.com/events/?event_id=420/citi-field-sprint-%28stadium%29) \\
 Running with: Jonathan Grana
 
 **Sunday, May 31, 2015** \\
