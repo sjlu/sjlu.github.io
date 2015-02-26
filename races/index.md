@@ -35,7 +35,8 @@ Start time: 11:15am - 12:45pm
 [Pennsylvania Spartan Super](http://www.spartan.com/events/?event_id=472/pennsylvania-super)
 
 **Saturday, July 18, 2015** \\
-[Pennsylvania Spartan Sprint #2](http://www.spartan.com/events/?event_id=474/pennsylvania-sprint-#2)
+[Pennsylvania Spartan Sprint #2](http://www.spartan.com/events/?event_id=474/pennsylvania-sprint-#2) \\
+Running with: Jason Caetano, Reema Sil
 
 **Saturday, August 1, 2015** \\
 [Western New York Tough Mudder](https://toughmudder.com/events/2015-western-new-york)
@@ -44,7 +45,8 @@ Start time: 11:15am - 12:45pm
 [Boston Spartan Sprint](http://www.spartan.com/events/?event_id=505/boston-sprint)
 
 **Saturday, September 12, 2015** \\
-[Tri-State New Jersey Spartan Super](http://www.spartan.com/events/?event_id=568/tri-state-new-jersey-super)
+[Tri-State New Jersey Spartan Super](http://www.spartan.com/events/?event_id=568/tri-state-new-jersey-super) \\
+Running with: Jason Caetano, Reema Sil
 
 **Saturday, September 19, 2015** \\
 [Vermont Spartan Beast](http://www.spartan.com/events/?event_id=572/vermont-beast)
