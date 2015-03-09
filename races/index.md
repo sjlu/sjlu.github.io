@@ -46,7 +46,9 @@ Running with: Jason Caetano, Reema Sil
 
 **Saturday, September 12, 2015** \\
 [Tri-State New Jersey Spartan Super](http://www.spartan.com/events/?event_id=568/tri-state-new-jersey-super) \\
-Running with: Jason Caetano, Reema Sil
+Team name: **Can't Touch This** \\
+Running with: Jason Caetano, Reema Sil \\
+Start time: 11:15am - 12pm
 
 **Saturday, September 19, 2015** \\
 [Vermont Spartan Beast](http://www.spartan.com/events/?event_id=572/vermont-beast)
