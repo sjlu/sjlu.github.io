@@ -13,7 +13,7 @@ was accepted as one of the first 100 applications and began growing at 10,000 us
 
 Most of my enthusiasm for programming grew from this application as I had to adapt as the
 application evolved. One of the first things I learned was scaling infrastructure to withstand
-the unexpected growth rate that the application incured during a time were Amazon's web services
+the unexpected growth rate that the application incured during a time where Amazon's web services
 did not exist.
 
 Afterwards, I had to obtain some help building features and maintain the application, so I grabbed
