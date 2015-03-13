@@ -26,7 +26,8 @@ Running with: Phillip Quiza, Paul Shi \\
 Start time: 11:15am - 12:45pm
 
 **Saturday, June 6, 2015** \\
-[Tri-State New York Spartan Sprint #2](http://www.spartan.com/events/?event_id=424/tri-state-new-york-sprint-#2)
+[Tri-State New York Spartan Sprint #2](http://www.spartan.com/events/?event_id=424/tri-state-new-york-sprint-#2) \\
+Running with: Liz Jamora
 
 **Saturday, June 20, 2015** \\
 [Boston Spartan Super](http://www.spartan.com/events/?event_id=504/boston-super)
