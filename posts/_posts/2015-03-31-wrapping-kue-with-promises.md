@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Wrapping Kue wth Promises"
+title: "Wrapping Kue wth Promises and Domains"
 description: "Making your worker functions process with stability"
 category:
 tags: []
@@ -25,6 +25,13 @@ Here's a little snippet of how I've been able to resolve these problems.
 I do assume that you have some sort of external logging service such
 as [Papertrail](http://papertrail.com) and that you do not really care
 about the output of the job that you are running.
+
+If you've also noticed, async errors are not caught well within
+promises and will cause Kue or your worker to crash. When that happens
+any other job that is processing with it now goes into limbo or
+an inactive state. Kue finally [documented](https://github.com/Automattic/kue#error-handling)
+several ways on how to keep this from happening. In my method, I do a hybrid
+of both and wrap it with a Promise and a domain.
 
 {% highlight javascript %}
 var kue = require('kue');
@@ -63,32 +70,33 @@ function registerJob(processName, processFn){
       })
       .then(function() {
         this.start = Date.now();
-        var fn = processFn;
-        // accept jobs with return promises, this means
-        // you have to ignore the "done" parameter
-        // function(job, done) {} -> function(job) {}
-        if (fn.length !== 1) {
-          fn = Promise.promisify(fn);
+        // Promise vs. non-promise
+        if (processFn.length !== 1) {
+          // we wanna wrap non-promise async calls
+          // with domains cause if it throws an
+          // error that'll cause the thread to crash
+          // we want to make sure that does not happen
+          // and that we continue processing
+          return new Promise(function(resolve, reject) {
+            var d = domain.create();
+            d.on('error', function(err) {
+              return reject(err);
+            });
+            d.run(function() {
+              processFn(job, function(err) {
+                if (err) return reject(err);
+                return resolve();
+              })
+            })
+          });
+        } else {
+          // note that we don't need domains here
+          // cause I hope you're using promises
+          // the right way
+          return processFn(job);
         }
-
-        // Timeouts help resolve issues with jobs that
-        // stall completely. Adjust the time accordingly.
-        var timerFn = new Promise(function(resolve, reject) {
-          setTimeout(function() {
-            reject(new Error('timeout'))
-          }, 60*1000);
-        })
-
-        // "race" means first one to respond finishes
-        // this promise. In this case, if the timer
-        // finishes first, we've timed out and we dont
-        // care about the job cause it took way
-        // too much time
-        return Promise.race([
-          timerFn,
-          fn(job)
-        ])
       })
+      .timeout(90000)
       .then(function() {
         winston.info('[worker] job finished', {
           type: job.type,
@@ -107,6 +115,7 @@ function registerJob(processName, processFn){
           data: job.data
         })
         console.trace(err);
+        return;
       })
       // even if we fail, done is called EVERY time
       .finally(function() {
