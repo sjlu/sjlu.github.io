@@ -38,6 +38,7 @@ var kue = require('kue');
 var jobs = kue;
 var Promise = require('bluebird');
 var winston = require('winston');
+var domains = require('domains');
 
 // cleanup every job that has completed
 // since we don't really care about the data
