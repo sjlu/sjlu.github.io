@@ -13,12 +13,12 @@ was accepted as one of the first 100 applications and began growing at 10,000 us
 
 Most of my enthusiasm for programming grew from this application as I had to adapt as the
 application evolved. One of the first things I learned was scaling infrastructure to withstand
-the unexpected growth rate that the application incured during a time where Amazon's web services
+the unexpected growth rate that the application incurred during a time where Amazon's web services
 did not exist.
 
 Afterwards, I had to obtain some help building features and maintain the application, so I grabbed
-help from [Russell Frank](http://russfrank.us) who helped me maintain the infrastrucutre and build
-compatability features.
+help from [Russell Frank](http://russfrank.us) who helped me maintain the infrastructure and build
+compatibility features.
 
 Around 2009, the [RIAA](https://www.riaa.com/) informed me that I must abide to the
 [DMCA](http://en.wikipedia.org/wiki/Digital_Millennium_Copyright_Act) in order to keep the
@@ -29,8 +29,8 @@ Russ decided to leave during this point where I decided to keep it going. This i
 had help from [Frances Soong](http://francessoong.com) and [Shy Ruparel](http://shyruparel.com)
 to create a new and improved experience of the application.
 
-Because Facebook changed its design, the application evolved to become a place for indie artists
-to publish and share their music on their Facebook pages. It even gave artists paid advertisting
+Because Facebook changed its design, the application evolved to become a place for Indie artists
+to publish and share their music on their Facebook pages. It even gave artists paid advertising
 opportunities to obtain more "listens" of their music. It essentially became what is the modern day
 SoundCloud.
 
