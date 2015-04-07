@@ -3,7 +3,8 @@ layout: page
 ---
 
 <div id="projects" class="row">
-  {% for page in site.pages | sort:title %}
+  {% assign pages = site.pages | sort: 'title' %}
+  {% for page in pages %}
     {% if page.categories contains "project" %}
       <div class="col-md-3 col-sm-4 text-center">
         <a href="{{ page.url | prepend: site.baseurl }}">
