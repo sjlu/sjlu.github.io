@@ -2,7 +2,7 @@
 layout: post
 title: "Using Redis for Caching in Node.js"
 description: ""
-category:
+category: "tech"
 tags: []
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Installing Node.js properly on Ubuntu"
 description: ""
-category:
+category: "tech"
 tags: []
 ---
 

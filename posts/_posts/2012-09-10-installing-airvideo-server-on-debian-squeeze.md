@@ -2,7 +2,7 @@
 layout: post
 title: "Installing AirVideo Server on Debian Squeeze"
 description: ""
-category:
+category: "tech"
 tags: []
 ---
 

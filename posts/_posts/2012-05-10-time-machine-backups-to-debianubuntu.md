@@ -2,7 +2,7 @@
 layout: post
 title: "Time Machine Backups to Debian/Ubuntu"
 description: ""
-category:
+category: "tech"
 tags: []
 ---
 

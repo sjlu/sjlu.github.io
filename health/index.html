@@ -3,9 +3,9 @@ layout: page
 ---
 <div id="posts">
   <div class="row">
-    <div class="col-md-offset-1 col-md-10 text-center">
+    <div class="col-md-12">
       {% for post in site.posts %}
-        {% if post.categories contains 'tech' %}
+        {% if post.categories contains 'health' %}
           <div class="headline">
             <small>{{ post.date | date: "%b %-d, %Y" }}</small>
             <div><a href="{{ post.url | prepend: site.baseurl }}" class="title">{{ post.title }}</a></div>

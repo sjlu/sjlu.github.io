@@ -2,7 +2,7 @@
 layout: post
 title: "Using a private npm repository for your project"
 description: "How to use modules without publishing globally"
-category:
+category: "tech"
 tags: []
 ---
 

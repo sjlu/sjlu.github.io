@@ -21,3 +21,5 @@ navigation:
     url: /posts
   - title: Projects
     url: /projects
+  - title: Health
+    url: /health

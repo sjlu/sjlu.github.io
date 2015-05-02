@@ -2,7 +2,7 @@
 layout: post
 title: "Golang basics with Google Datastore"
 description: "Just some basic operations to get started"
-category:
+category: "tech"
 tags: []
 ---
 

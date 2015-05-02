@@ -2,7 +2,7 @@
 layout: post
 title: "CodeIgniter and CDNs"
 description: ""
-category:
+category: "tech"
 tags: []
 ---
 

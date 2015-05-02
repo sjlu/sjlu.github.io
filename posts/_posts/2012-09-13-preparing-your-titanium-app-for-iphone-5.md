@@ -2,7 +2,7 @@
 layout: post
 title: "Preparing Your Titanium App for iPhone 5"
 description: ""
-category:
+category: "tech"
 tags: []
 ---
 
