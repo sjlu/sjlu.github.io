@@ -17,7 +17,7 @@ Start time: 9am - 10am
 
 **Saturday, May 9, 2015** \\
 [Citi Field Spartan Sprint](http://www.spartan.com/events/?event_id=420/citi-field-sprint-%28stadium%29) \\
-Running with: Jonathan Grana
+Start time: 7:45am
 
 **Sunday, May 31, 2015** \\
 [Tri-State New York Spartan Sprint](http://www.spartan.com/events/?event_id=423/tri-state-new-york-sprint) \\
@@ -27,7 +27,7 @@ Start time: 11:15am - 12:45pm
 
 **Saturday, June 6, 2015** \\
 [Tri-State New York Spartan Sprint #2](http://www.spartan.com/events/?event_id=424/tri-state-new-york-sprint-#2) \\
-Running with: Liz Jamora
+Running with: Jonathan Grana
 
 **Saturday, June 20, 2015** \\
 [Boston Spartan Super](http://www.spartan.com/events/?event_id=504/boston-super)
@@ -54,11 +54,5 @@ Start time: 11:15am - 12pm
 **Saturday, September 19, 2015** \\
 [Vermont Spartan Beast](http://www.spartan.com/events/?event_id=572/vermont-beast)
 
-**Saturday, October 17, 2015** \\
-[Philly Tough Mudder](https://toughmudder.com/events/2015-philly)
-
 **Saturday, October 31, 2015** \\
 [Dallas Spartan Beast](http://www.spartan.com/events/?event_id=517/dallas-beast)
-
-**Saturday, November 7, 2015** \\
-[Tri-State Tough Mudder](https://toughmudder.com/events/2015-tri-state)
