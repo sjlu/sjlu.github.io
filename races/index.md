@@ -61,4 +61,4 @@ Start time: 10am - 11am
 
 **Saturday, October 31, 2015** \\
 [Dallas Spartan Beast](http://www.spartan.com/events/?event_id=517/dallas-beast) \\
-Running with: Lasha Kirkheli
+Running with: Lasha Krikheli
