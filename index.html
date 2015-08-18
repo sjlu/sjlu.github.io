@@ -56,13 +56,11 @@ layout: default
   <h2 class="text-center">posts</h2>
   <br />
   {% for post in site.posts limit:3 %}
-    {% if post.categories contains 'tech' %}
-      <div class="headline">
-        <small>{{ post.date | date: "%b %-d, %Y" }}</small>
-        <div><a href="{{ post.url | prepend: site.baseurl }}" class="title">{{ post.title }}</a></div>
-        <small>{{ post.description | strip_html | truncatewords: 15 }}</small>
-      </div>
-    {% endif %}
+    <div class="headline">
+      <small>{{ post.date | date: "%b %-d, %Y" }}</small>
+      <div><a href="{{ post.url | prepend: site.baseurl }}" class="title">{{ post.title }}</a></div>
+      <small>{{ post.description | strip_html | truncatewords: 15 }}</small>
+    </div>
   {% endfor %}
   <br />
   <a class="more" href="{{ "/posts" | prepend: site.baseurl }}">read more <i class="fa fa-long-arrow-right"></i></a>

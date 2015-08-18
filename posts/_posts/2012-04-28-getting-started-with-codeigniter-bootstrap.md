@@ -2,7 +2,6 @@
 layout: post
 title: "Getting Started with CodeIgniter Bootstrap"
 description: ""
-category: "tech"
 tags: []
 ---
 

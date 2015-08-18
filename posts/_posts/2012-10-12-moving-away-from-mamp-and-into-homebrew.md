@@ -2,7 +2,6 @@
 layout: post
 title: "Moving Away from MAMP and into Homebrew"
 description: ""
-category: "tech"
 tags: []
 ---
 

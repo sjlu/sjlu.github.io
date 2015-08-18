@@ -279,6 +279,17 @@ p {
     line-height: 1.5;
     margin-bottom: 17px;
 
+    img {
+      border: 1px solid #eee;
+      padding: 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 100%;
+    }
+
     ul, ol {
       padding-left: 24px;
       margin-bottom: 17px;

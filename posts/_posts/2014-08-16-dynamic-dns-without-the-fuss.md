@@ -2,7 +2,6 @@
 layout: post
 title: "Dynamic DNS without the fuss"
 description: "DynDNS without the monthly email check with CloudFlare"
-category: "tech"
 tags: []
 ---
 

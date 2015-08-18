@@ -2,7 +2,6 @@
 layout: post
 title: "MongoDB PHP Extension for MAMP"
 description: ""
-category: "tech"
 tags: []
 ---
 

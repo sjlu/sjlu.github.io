@@ -2,7 +2,6 @@
 layout: post
 title: "Using CodeIgniter Migrations"
 description: ""
-category: "tech"
 tags: []
 ---
 

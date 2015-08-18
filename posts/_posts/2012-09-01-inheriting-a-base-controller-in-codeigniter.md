@@ -2,7 +2,6 @@
 layout: post
 title: "Inheriting a Base Controller In CodeIgniter"
 description: ""
-category: "tech"
 tags: []
 ---
 

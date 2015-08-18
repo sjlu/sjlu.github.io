@@ -2,7 +2,6 @@
 layout: post
 title: "Wrapping Kue wth Promises and Domains"
 description: "Making your worker functions process with stability"
-category: "tech"
 tags: []
 ---
 
