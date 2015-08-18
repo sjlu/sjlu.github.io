@@ -23,10 +23,10 @@ Make sure you keep the password the same for both private keys.
 ![pic02](/images/screenshots/02.png)
 ![pic03](/images/screenshots/03.png)
 
-3. Make sure you create or make a copy of your `.mobileprovision` file for your app.
+3. Make sure you create or make a copy of your adhoc `.mobileprovision` file for your app.
 
-3. We will need to make an API key in HockeyApp so we can make uploads. This is not your app's
-key, this your account's key.
+3. We will need to make an API key in HockeyApp so we can make uploads. This is *not* your app's
+key.
 ![pic04](/images/screenshots/04.png)
 
 3. You need CircleCI to enable OSX build machines for you. They're pretty friendly, so just
@@ -40,7 +40,7 @@ ask them using their Intercom integration or just go [here](https://circleci.com
 `KEY_PASSWORD`, both which you created in steps before.
 ![pic05](/images/screenshots/05.png)
 
-6. In order for CircleCI builds to work properly, you need to enabled Shared scheams. Do so by
+6. In order for CircleCI builds to work properly, you need to enabled Shared schemas. Do so by
 editing the schema and checking "shared" at the bottom of the configuration window.
 ![pic05](/images/screenshots/06.png)
 ![pic05](/images/screenshots/07.png)
