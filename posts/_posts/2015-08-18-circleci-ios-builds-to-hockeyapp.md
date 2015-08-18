@@ -86,3 +86,4 @@ I'm sure this can be fixed by creating a Wildcard App ID and its approrpriate ce
 is commented out in `build.sh` and replace the `Info.plist` file location appropriately.
 * I was told that `remove-key.sh` isn't really necessary anymore as each build is deployed on
 a new machine on CircleCI. I'd still keep it there for now as keychain password is simple.
+* You may need to bump the Xcode version if your app users a newer version of Swift, etc.
