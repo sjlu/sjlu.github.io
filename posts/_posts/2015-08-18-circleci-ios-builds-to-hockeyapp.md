@@ -50,6 +50,10 @@ App ID to build `appTests` with. If you want to also test with CircleCI, you'll 
 your certificates with the wildcard. You may also need to remove this from your project also.
 ![pic05](/images/screenshots/08.png)
 
+8. You need to explicitly set the code signing provisioning profile so that the build doesn't
+automatically choose for you.
+![pic05](/images/screenshots/09.png)
+
 8. Add the following files to your repository structure. Some of which you've already created,
 some that you will create now.
     * [circle.yml](https://gist.github.com/sjlu/c648b762f7b17c9beeb6#file-circle-yml)
@@ -66,3 +70,19 @@ some that you will create now.
           * app.mobileprovision
 
 9. Commit and push to start your first build.
+
+### Notes
+
+* This is an adaptation from [Mazyod](http://mazyod.com/blog/2015/03/26/marry-circleci-to-hockey/)
+and [thorikawa](https://github.com/thorikawa/CircleCI-iOS-TestFlight-Sample/tree/master/scripts).
+You may be able to find more answers there if you run into any problems.
+* If you performed a verbose build, your actual errors may occur beforehand. Check the entire
+log to see where it actually errored out.
+* I could not get my tests to build correctly as it failed to find an appropriate certificate/key
+pair. I assumed it was because `com.stevenlu.superagentTests` certificate or App ID did not exist.
+I'm sure this can be fixed by creating a Wildcard App ID and its approrpriate certificates.
+* I had to update CocoaPods due to some weird [code signing issue](https://github.com/CocoaPods/CocoaPods/issues/3063) that persisted in the default version that CircleCI had.
+* If you want auto incremental build numbers that don't conflict, check out the line that's
+is commented out in `build.sh` and replace the `Info.plist` file location appropriately.
+* I was told that `remove-key.sh` isn't really necessary anymore as each build is deployed on
+a new machine on CircleCI. I'd still keep it there for now as keychain password is simple.
