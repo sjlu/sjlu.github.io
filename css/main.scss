@@ -80,7 +80,7 @@ nav {
     img {
       width: 32px;
       height: 32px;
-      box-shadow: rgba(0,0,0,0.3) 0 0 5px;
+      // box-shadow: rgba(0,0,0,0.3) 0 0 5px;
       @include transition (all 0.2s ease);
     }
 
@@ -134,7 +134,7 @@ p {
 
   .avatar {
     img {
-      box-shadow: rgba(0,0,0,0.3) 0 0 15px;
+      // box-shadow: rgba(0,0,0,0.3) 0 0 15px;
     }
   }
 
@@ -166,14 +166,16 @@ p {
 
     margin: 0 10px;
 
-    @include transition (all 0.2s ease);
+    @include transition (color 0.1s ease);
 
     &:hover {
       color: black;
     }
 
     &:hover,
-    &:active {
+    &:active,
+    &:focus,
+    &:visited {
       text-decoration: none;
     }
   }
