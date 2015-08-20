@@ -50,10 +50,6 @@ App ID to build `appTests` with. If you want to also test with CircleCI, you'll 
 your certificates with the wildcard. You may also need to remove this from your project also.
 ![pic05](/images/screenshots/08.png)
 
-8. You need to explicitly set the code signing provisioning profile so that the build doesn't
-automatically choose for you.
-![pic05](/images/screenshots/09.png)
-
 8. Add the following files to your repository structure. Some of which you've already created,
 some that you will create now.
     * [circle.yml](https://gist.github.com/sjlu/c648b762f7b17c9beeb6#file-circle-yml)
