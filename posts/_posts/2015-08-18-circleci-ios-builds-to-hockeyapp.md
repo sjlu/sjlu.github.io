@@ -83,3 +83,6 @@ is commented out in `build.sh` and replace the `Info.plist` file location approp
 * I was told that `remove-key.sh` isn't really necessary anymore as each build is deployed on
 a new machine on CircleCI. I'd still keep it there for now as keychain password is simple.
 * You may need to bump the Xcode version if your app users a newer version of Swift, etc.
+* Make sure your Code Signing & Provisioning Profile "Build Settings" are set to automatically
+pull whatever is on the machine or else it'll just be another step when updating your provisioning
+profile.
