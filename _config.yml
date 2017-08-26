@@ -1,7 +1,7 @@
 # Site settings
 title: Steven Lu
 email: tacticalazn@gmail.com
-description: "software engineer & health fanatic"
+description: "co-founder of interseller, software engineer & health fanatic"
 baseurl: ""
 url: "http://stevenlu.com"
 twitter_username: stevenlu
@@ -21,3 +21,7 @@ navigation:
     url: /posts
   - title: Projects
     url: /projects
+
+# plugins
+plugins:
+  - jekyll-sitemap
