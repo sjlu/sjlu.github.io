@@ -17,7 +17,9 @@ At it's peak, these sites reached over 25 million gamers and is currently indexe
 Google as the top sites to finding in-game collectables.
 
 [Destiny Calcified Fragments](https://destinycalcifiedfragments.com)
+
 [Destiny SIVA Clusters](https://destinysivaclusters.com)
+
 [Destiny Dead Ghosts](https://destinydeadghosts.com)
 
-![screenshot](01.jpg)
+![screenshot](01.png)
