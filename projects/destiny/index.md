@@ -14,6 +14,10 @@ find them throughout the map by just inputting your gamertag. It also gave you a
 of which characters also had them (since you had to collect 45 of them with 1 character).
 
 At it's peak, these sites reached over 25 million gamers and is currently indexed on
-Google as the top sites to finding in-game collectables
+Google as the top sites to finding in-game collectables.
+
+[Destiny Calcified Fragments](https://destinycalcifiedfragments.com)
+[Destiny SIVA Clusters](https://destinysivaclusters.com)
+[Destiny Dead Ghosts](https://destinydeadghosts.com)
 
 ![screenshot](01.jpg)
