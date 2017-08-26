@@ -1,7 +1,7 @@
 ---
 layout: project
 resource: true
-categories: [project, featured]
+categories: [project]
 title: "Crush With Cupid"
 ---
 
