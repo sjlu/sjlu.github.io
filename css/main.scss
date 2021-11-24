@@ -134,6 +134,7 @@ p {
 
   .avatar {
     img {
+      margin: 5px;
       width: 120px;
       height: 120px;
       // box-shadow: rgba(0,0,0,0.3) 0 0 15px;
@@ -141,12 +142,10 @@ p {
   }
 
   .name {
-    margin-top: 30px;
+    margin-bottom: 5px;
 
     font-size: 48px;
     font-weight: 400;
-
-    text-transform: lowercase;
   }
 
   .description {
