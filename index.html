@@ -10,9 +10,6 @@ layout: default
   <div class="name text-center">
     {{site.title}}
   </div>
-  <div class="description text-center">
-    {{site.description}}
-  </div>
   <div class="social text-center">
     <a href="https://www.linkedin.com/in/stevenlu">
       <i class="fa fa-linkedin-square"></i>
@@ -29,27 +26,6 @@ layout: default
 <div id="about">
   {% capture about %}{% include about.md %}{% endcapture %}
   {{ about | markdownify }}
-</div>
-<hr />
-<div id="projects">
-  <h2 class="text-center">projects</h2>
-  <br />
-  <div class="row">
-    {% for page in site.pages | sort:title %}
-      {% if page.categories contains "project" and page.categories contains "featured" %}
-        <div class="col-md-3 col-sm-6 text-center">
-          <a href="{{ page.url | prepend: site.baseurl }}">
-            <img class="img-rounded" src="{{ page.dir | prepend: site.baseurl | append: "thumb.png" }}" />
-          </a>
-        </div>
-      {% endif %}
-    {% endfor %}
-  </div>
-  <br />
-  <br />
-  <div class="text-center">
-    <a class="more" href="{{ "/projects" | prepend: site.baseurl }}">see more <i class="fa fa-long-arrow-right"></i></a>
-  </div>
 </div>
 <hr />
 <div id="posts" class="text-center">
