@@ -28,9 +28,7 @@ layout: default
   {{ about | markdownify }}
 </div>
 <hr />
-<div id="posts" class="text-center">
-  <h2 class="text-center">posts</h2>
-  <br />
+<div id="posts">
   {% for post in site.posts limit:3 %}
     <div class="headline">
       <small>{{ post.date | date: "%b %-d, %Y" }}</small>
