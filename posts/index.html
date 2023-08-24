@@ -6,9 +6,8 @@ layout: page
     <div class="col-md-12">
       {% for post in site.posts %}
         <div class="headline">
-          <small>{{ post.date | date: "%b %-d, %Y" }}</small>
+          <div class="meta">{{ post.date | date: "%b %-d, %Y" }}</div>
           <div><a href="{{ post.url | prepend: site.baseurl }}" class="title">{{ post.title }}</a></div>
-          <small>{{ post.description | strip_html | truncatewords: 15 }}</small>
         </div>
       {% endfor %}
     </div>

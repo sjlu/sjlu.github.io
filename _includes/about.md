@@ -1,4 +1,4 @@
-Software Engineer, Entrepreneur in NYC
+Dad, Software Engineer, Entrepreneur, NYC
 
 | 2021 - Now | [Greenhouse](https://www.greenhouse.com){:target="_blank"}<br/>Head of CRM Technology |
 | 2016 - 2021 | [Interseller](https://www.interseller.io){:target="_blank"}<br/>Co-Founder & CEO<br/>Acquired by [Greenhouse](https://www.greenhouse.com/blog/acquiring-interseller){:target="_blank"} in 2021 |
