@@ -3,41 +3,46 @@ layout: default
 ---
 <br />
 <br />
-<div id="title">
-  <div class="avatar text-center">
-    <img class="img-rounded" src="{{ "/images/avatar.jpg" | prepend: site.baseurl }}" />
-  </div>
-  <div class="name text-center">
-    {{site.title}}
-  </div>
-  <div class="social text-center">
-    <a href="https://www.linkedin.com/in/stevenlu">
-      <i class="fa fa-linkedin-square"></i>
-    </a>
-    <a href="https://twitter.com/stevenlu">
-      <i class="fa fa-twitter-square"></i>
-    </a>
-    <a href="https://github.com/sjlu">
-      <i class="fa fa-github-square"></i>
-    </a>
-  </div>
-</div>
-<hr />
-<div id="about">
-  {% capture about %}{% include about.md %}{% endcapture %}
-  {{ about | markdownify }}
-</div>
-<hr />
-<div id="posts">
-  {% for post in site.posts limit:3 %}
-    <div class="headline">
-      <small>{{ post.date | date: "%b %-d, %Y" }}</small>
-      <div><a href="{{ post.url | prepend: site.baseurl }}" class="title">{{ post.title }}</a></div>
-      <small>{{ post.description | strip_html | truncatewords: 15 }}</small>
+<div class="container-sm">
+  <div id="title">
+    <div class="avatar">
+      <img class="img-circle" src="{{ "/images/avatar.jpg" | prepend: site.baseurl }}" />
     </div>
-  {% endfor %}
+    <div class="name">
+      {{site.title}}
+
+      <div class="social">
+        <a href="https://www.linkedin.com/in/stevenlu">
+          <i class="fa fa-linkedin-square"></i>
+        </a>
+        <a href="https://twitter.com/stevenlu">
+          <i class="fa fa-twitter-square"></i>
+        </a>
+        <a href="https://github.com/sjlu">
+          <i class="fa fa-github-square"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <hr />
+
+  <div id="about">
+    {% capture about %}{% include about.md %}{% endcapture %}
+    {{ about | markdownify }}
+  </div>
+  <hr />
+  <div id="posts">
+    {% for post in site.posts limit:3 %}
+      <div class="headline">
+        <small>{{ post.date | date: "%b %-d, %Y" }}</small>
+        <div><a href="{{ post.url | prepend: site.baseurl }}" class="title">{{ post.title }}</a></div>
+        <small>{{ post.description | strip_html | truncatewords: 15 }}</small>
+      </div>
+    {% endfor %}
+    <br />
+    <a class="more" href="{{ "/posts" | prepend: site.baseurl }}">read more <i class="fa fa-long-arrow-right"></i></a>
+  </div>
   <br />
-  <a class="more" href="{{ "/posts" | prepend: site.baseurl }}">read more <i class="fa fa-long-arrow-right"></i></a>
+  <br />
 </div>
-<br />
-<br />
