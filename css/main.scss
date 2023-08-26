@@ -218,9 +218,9 @@ p {
 
   table {
     font-size: $font-size;
-    line-height: 1.5;
 
     td:first-child {
+      line-height: 1.7;
       font-family: $font-title;
       color: $color-gray;
       padding-right: 1rem;
@@ -230,8 +230,8 @@ p {
 
     td:nth-child(2) {
       &::first-line {
-        font-family: $font-title;
         line-height: 1.7;
+        font-family: $font-title;
         color: black;
       }
     }
