@@ -3,6 +3,9 @@ const contentful = require('contentful')
 const axios = require('axios')
 const fs = require('fs')
 const path = require('path')
+
+console.log(process.env)
+
 const client = contentful.createClient({
   space: process.env.CONTENTFUL_SPACE,
   accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
