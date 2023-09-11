@@ -8,6 +8,24 @@ const client = contentful.createClient({
   accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
 })
 
+async function getEntryItems (contentType, skip = 0) {
+  const resp = await client.getEntries({
+    content_type: contentType,
+    order: 'sys.createdAt',
+    include: 2,
+    skip
+  })
+
+  let items = resp.items
+
+  if (resp.skip + resp.limit < resp.total) {
+    const nextItems = await getEntryItems(contentType, skip + resp.limit)
+    items = items.concat(nextItems)
+  }
+
+  return items
+}
+
 function convertEntryItemsToPosts (entry) {
   const fields = entry.fields ?? {}
 
@@ -67,6 +85,8 @@ async function downloadImage (image) {
     responseType: 'stream'
   })
 
+  console.log(`[image] ${imagePath}`)
+
   return new Promise ((resolve, reject) => {
     resp.data.pipe(fs.createWriteStream(imagePath))
       .on('error', reject)
@@ -85,6 +105,9 @@ tags: []
 ${post.body}`
 
   const postPath = path.join(__dirname, `posts/_posts/${post.date}-${post.slug}.md`)
+
+  console.log(`[post] ${postPath}`)
+
   await fs.promises.writeFile(postPath, content)
 }
 
