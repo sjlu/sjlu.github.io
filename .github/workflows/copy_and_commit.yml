@@ -11,7 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        ref: main
+        with:
+          ref: main
       - run: |
           git checkout -b contentful-copy
       - name: Download Contentful
