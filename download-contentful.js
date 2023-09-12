@@ -43,7 +43,7 @@ function convertEntryItemsToPosts (entry) {
 
     const imageUrl = `https://images.ctfassets.net/${url[2]}/${url[3]}/${url[4]}/${url[5]}.${url[6]}?fm=webp&w=1600`
     const folder = `/images/${slug}`
-    const filename = `${url[5]}.webp`
+    const filename = `${url[5]}-${url[3]}.webp`
 
     body = body.replace(image, `${folder}/${filename}`)
 
