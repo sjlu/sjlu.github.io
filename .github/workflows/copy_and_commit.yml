@@ -1,0 +1,27 @@
+on:
+  repository_dispatch:
+    types:
+      - webhook
+
+jobs:
+  copy_and_commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        ref: main
+      - run: |
+          git checkout -b contentful-copy
+      - name: Download Contentful
+        run: |
+          node download-contentful.js
+        env:
+          CONTENTFUL_SPACE: ${{ secrets.CONTENTFUL_SPACE }}
+          CONTENTFUL_ACCESS_TOKEN: ${{ secrets.CONTENTFUL_ACCESS_TOKEN }}
+      - name: Commit
+        run: |
+          git config --global user.name github-actions
+          git config --global user.email github-actions@github.com
+          git add .
+          git commit -m 'Generated'
+          git push --force
+
