@@ -2,14 +2,10 @@
 layout: page
 ---
 <div id="posts">
-  <div class="row">
-    <div class="col-md-12">
-      {% for post in site.posts %}
-        <div class="headline">
-          <div class="meta">{{ post.date | date: "%b %-d, %Y" }}</div>
-          <div><a href="{{ post.url | prepend: site.baseurl }}" class="title">{{ post.title }}</a></div>
-        </div>
-      {% endfor %}
+  {% for post in site.posts %}
+    <div class="headline">
+      <div class="meta">{{ post.date | date: "%b %-d, %Y" }}</div>
+      <div><a href="{{ post.url | prepend: site.baseurl }}" class="title">{{ post.title }}</a></div>
     </div>
-  </div>
+  {% endfor %}
 </div>

@@ -32,11 +32,28 @@ $font-body: freight-text-pro, sans-serif;
 $font-title: source-sans-pro, sans-serif;
 $link-color: #428bca;
 
+:root {
+  --background-color: #fff;
+  --text-color: #333;
+  --text-secondary-color: rgba(0,0,0,.5);
+  --link-color: rgb(13,110,253);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #212529;
+    --text-color: #fff;
+    --text-secondary-color: #dee2e6;
+    --link-color: rgb(110,168,254);
+  }
+}
+
 // Globals
 body {
   font-family: $font-body;
   font-weight: 400;
-  color: #333;
+  color: var(--text-color);
+  background-color: var(--background-color);
   letter-spacing: 0.17px;
   -webkit-font-smoothing: antialiased;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
@@ -86,7 +103,7 @@ nav {
   .navbar-brand {
     display: flex;
 
-    color: black;
+    color: var(--text-color);
     padding: 8px 0;
     font-weight: 400;
     letter-spacing: 0;
@@ -94,18 +111,11 @@ nav {
     img {
       width: 32px;
       height: 32px;
-      // box-shadow: rgba(0,0,0,0.3) 0 0 5px;
-      // transition: all 0.2s ease;
-      // @include transition (all 0.2s ease);
     }
 
     &:hover {
       .title {
-        text-decoration: none;
-        background-image: linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,0,0,0.6) 50%);
-        background-repeat: repeat-x;
-        background-size: 3px 3px;
-        background-position: 0 24px;
+        text-decoration: underline;
       }
     }
   }
@@ -130,12 +140,12 @@ td, p {
   a:active,
   a:focus {
     text-decoration: underline;
-    color: #2a6496;
+    color: var(--link-color);
   }
 }
 
 a {
-  color: $link-color;
+  color: var(--link-color);
   text-decoration: none;
 }
 
@@ -171,7 +181,6 @@ a {
   }
 
   .description {
-    color: $color-gray;
     font-size: 28px;
     font-weight: 400;
   }
@@ -181,7 +190,7 @@ a {
   }
 
   a {
-    color: $color-gray;
+    color: var(--text-secondary-color);
 
     cursor: pointer;
 
@@ -191,7 +200,7 @@ a {
     // @include transition (color 0.1s ease);
 
     &:hover {
-      color: black;
+      color: var(--text-color);
     }
 
     &:hover,
@@ -219,7 +228,7 @@ a {
     td:first-child {
       line-height: 1.7;
       font-family: $font-title;
-      color: $color-gray;
+      color: var(--text-secondary-color);
       vertical-align: top;
       min-width: 100px;
     }
@@ -228,7 +237,7 @@ a {
       &::first-line {
         line-height: 1.7;
         font-family: $font-title;
-        color: black;
+        color: var(--text-color);
       }
     }
   }
@@ -243,6 +252,8 @@ a {
 }
 
 #posts {
+  margin-top: 2rem;
+
   h2 {
     margin-bottom: -5px;
   }
@@ -255,7 +266,7 @@ a {
 
     .meta {
       font-size: 85%;
-      color: $color-gray;
+      color: var(--text-secondary-color);
       font-family: $font-title;
       margin-bottom: 0.25rem;
     }
@@ -315,7 +326,7 @@ a {
 
       &.meta {
         font-family: $font-title;
-        color: $color-gray;
+        color: var(--text-secondary-color);
         margin-bottom: 0;
         font-weight: 400;
         font-size: $font-size;
@@ -389,7 +400,6 @@ a {
       display: block;
       max-width: 100%;
       height: auto;
-      // box-shadow: rgba(0,0,0,0.3) 0 0 15px;
     }
   }
 }
