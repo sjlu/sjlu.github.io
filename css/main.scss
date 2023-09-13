@@ -32,6 +32,10 @@ $font-body: freight-text-pro, sans-serif;
 $font-title: source-sans-pro, sans-serif;
 $link-color: #428bca;
 
+* {
+  box-sizing: border-box;
+}
+
 :root {
   --background-color: #fff;
   --text-color: #333;
