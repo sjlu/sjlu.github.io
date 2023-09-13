@@ -29,6 +29,7 @@ $h1-font-size: 28px;
 $color-gray: #999;
 $font-body: freight-text-pro, sans-serif;
 $font-title: source-sans-pro, sans-serif;
+$link-color: #428bca;
 
 // Globals
 body {
@@ -42,12 +43,13 @@ body {
 
 hr {
   margin: 40px 0;
+  border: 0;
+  border-top: 1px solid #eee;
+  height: 0;
 
   &.no-margin {
     margin: 0;
   }
-
-  // box-shadow: rgba(238,238,238,1) 0 2px 4px;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -55,53 +57,36 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: 500;
 }
 
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 nav {
   font-family: $font-title;
   font-size: 16px;
 
   .title {
+    margin-left: 10px;
+
     line-height: 31px;
     font-size: 21px;
-    vertical-align: middle;
-    margin-left: 6px;
     font-weight: 400;
+    vertical-align: middle;
   }
 
-  .navbar-nav {
-    li {
-      a {
-        // letter-spacing: 0.6px;
-        color: black;
-
-        &:hover {
-          text-decoration: underline;
-        }
-      }
-    }
-  }
-
-  &.navbar-default {
-    background-color: transparent;
-    border-color: transparent;
-
-    .navbar-collapse {
-      border-color: transparent;
-    }
-
-    .navbar-nav>.active>a {
-      background-color: transparent;
-      color: inherit;
-      font-weight: 400;
-
-      &:hover {
-        background-color: transparent;
-      }
-    }
+  .navbar {
+    position: relative;
+    min-height: 50px;
+    border: 1px solid transparent;
   }
 
   .navbar-brand {
-    color: black!important;
-    padding: 8px 15px;
+    display: flex;
+
+    color: black;
+    padding: 8px 0;
     font-weight: 400;
     letter-spacing: 0;
 
@@ -117,9 +102,9 @@ nav {
       .title {
         text-decoration: none;
         background-image: linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,0,0,0.6) 50%);
-        background-repeat:repeat-x;
-        background-size: 2px 2px;
-        background-position: 0 23px;
+        background-repeat: repeat-x;
+        background-size: 3px 3px;
+        background-position: 0 24px;
       }
     }
   }
@@ -131,10 +116,11 @@ nav {
   .container-fluid {
     padding-left: 0;
     padding-right: 0;
+    margin: 0 auto;
   }
 }
 
-p {
+td, p {
   font-size: $font-size;
   line-height: 1.5;
   margin-bottom: 17px;
@@ -142,17 +128,24 @@ p {
   a:hover,
   a:active,
   a:focus {
-    text-decoration: none;
-    background-image: linear-gradient(to bottom, rgba(42,100,150,0) 50%, rgba(42,100,150,0.6) 50%);
-    background-repeat:repeat-x;
-    background-size: 2px 2px;
-    background-position: 0 21px;
+    text-decoration: underline;
+    color: #2a6496;
   }
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
 }
 
 .container-sm {
   max-width: 600px;
   margin: 0 auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+  display: block;
 }
 
 // Homepage
@@ -163,6 +156,7 @@ p {
 
   .avatar {
     img {
+      border-radius: 50%;
       max-height: 92px;
       // box-shadow: rgba(0,0,0,0.3) 0 0 15px;
     }
@@ -205,6 +199,8 @@ p {
     &:visited {
       text-decoration: none;
     }
+
+    text-decoration: none;
   }
 }
 

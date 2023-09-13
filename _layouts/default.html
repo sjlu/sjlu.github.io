@@ -12,8 +12,9 @@
 
     <!-- <link rel="stylesheet" href="https://use.typekit.net/tfs0plg.css"> -->
 
-    <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
+    <!-- <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}"> -->
     <!-- <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'> -->
+    <link rel="stylesheet" href="{{ "/css/normalize.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/icons.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/syntax.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
@@ -22,11 +23,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="row">
-        <div class="col-md-offset-2 col-md-8">
-          {{ content }}
-        </div>
-      </div>
+      {{ content }}
     </div>
   </body>
 </html>

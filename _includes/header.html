@@ -1,29 +1,8 @@
 <nav class="navbar navbar-default" role="navigation">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="{{ "/" | prepend: site.baseurl }}">
-        <img class="img-circle" src="{{ "/images/avatar.jpg" | prepend: site.baseurl }}" />
-        <span class="title">{{ site.title }}</span>
-      </a>
-    </div>
-
-    <div class="collapse navbar-collapse" id="navbar">
-      <ul class="nav navbar-nav navbar-right">
-        {% for link in site.navigation %}
-          {% assign active = nil %}
-          {% if page.url contains link.url %}
-            {% assign active = true %}
-          {% endif %}
-          <li class="{% if active %}active{% endif %}"><a href="{{ link.url | prepend: site.baseurl }}">{{link.title}}</a></li>
-        {% endfor %}
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+  <a class="navbar-brand" href="{{ "/" | prepend: site.baseurl }}">
+    <img class="img-circle" src="{{ "/images/avatar.jpg" | prepend: site.baseurl }}" />
+    <span class="title">{{ site.title }}</span>
+  </a>
 </nav>
+
 <hr class="no-margin" />
