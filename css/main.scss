@@ -1,8 +1,6 @@
 ---
 ---
 
-// @import "bourbon/bourbon";
-
 @font-face {
   font-family: 'source-sans-pro';
   src: url('/fonts/SourceSansPro-Regular.otf') format('opentype');
@@ -231,10 +229,6 @@ a {
         color: black;
       }
     }
-
-    td {
-      padding-bottom: 0.75rem;
-    }
   }
 }
 
@@ -242,16 +236,7 @@ a {
   img {
     max-width: 100%;
     height: auto;
-    // box-shadow: rgba(0,0,0,0.3) 0 0 10px;
-
     margin: 10px 0;
-
-    transition: all 0.4s ease;
-    // @include transition (all 0.4s ease);
-
-    &:hover {
-      // box-shadow: rgba(0,0,0,0.3) 0 0 25px;
-    }
   }
 }
 
@@ -286,12 +271,7 @@ a {
     }
 
     a:hover {
-      // text-decoration: none;
       text-decoration: underline;
-      // background-image: linear-gradient(to bottom, rgba(42,100,150,0) 50%, rgba(42,100,150,0.6) 50%);
-      // background-repeat:repeat-x;
-      // background-size: 2px 2px;
-      // background-position: 0 26px;
     }
   }
 }
@@ -329,7 +309,6 @@ a {
     }
 
     p {
-      // font-weight: 300;
       font-size: $font-size;
 
       &.meta {
