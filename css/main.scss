@@ -39,8 +39,8 @@ $link-color: #428bca;
 :root {
   --background-color: #fff;
   --text-color: #333;
-  --text-secondary-color: rgba(0,0,0,.5);
-  --link-color: rgb(13,110,253);
+  --text-secondary-color: rgba(0,0,0,.50);
+  --link-color: #428bca;
 }
 
 @media (prefers-color-scheme: dark) {
