@@ -1,5 +1,6 @@
 {{ site.description }}
 
+| 2024 - Now  | [Pin](https://www.pin.com){:target="_blank"}<br/>Co-Founder & CEO |
 | 2021 - 2023 | [Greenhouse](https://www.greenhouse.com){:target="_blank"}<br/>Head of CRM Technology |
 | 2016 - 2021 | [Interseller](https://www.interseller.io){:target="_blank"}<br/>Co-Founder & CEO<br/>Acquired by [Greenhouse](https://www.greenhouse.com/blog/acquiring-interseller){:target="_blank"} in 2021 |
 | 2014 - 2016 | [Abacus](https://www.abacus.com){:target="_blank"}<br/>Software Engineer |
