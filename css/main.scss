@@ -135,6 +135,18 @@ nav {
   }
 }
 
+// Lists read like the paragraphs around them, indented like a post's.
+ul, ol {
+  font-size: $font-size;
+  line-height: 1.5;
+  padding-left: 24px;
+  margin-bottom: 17px;
+
+  li + li {
+    margin-top: 6px;
+  }
+}
+
 td, p {
   font-size: $font-size;
   line-height: 1.5;
