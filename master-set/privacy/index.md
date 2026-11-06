@@ -26,7 +26,7 @@ To show sets, cards and prices, the app asks our server for them. These requests
 - **Catalog requests:** which set, Pokédex entry or search you opened. When you search, the words you type are sent to our server, which looks them up with our search provider, [Algolia](https://www.algolia.com/policies/privacy/). Algolia receives only the search words, not your IP address.
 - **Card images:** downloaded from our image storage on Cloudflare.
 
-Like any website, our server and hosting providers ([Railway](https://railway.com/legal/privacy) and [Cloudflare](https://www.cloudflare.com/privacypolicy/)) receive your IP address and basic device details, such as the iOS version, with each request. Our server logs record the IP address, time and address requested, including search words, to keep the service running and secure. We do not use these logs to identify or profile anyone, and they are deleted automatically after a short period.
+Like any website, our server and hosting providers ([Railway](https://railway.com/legal/privacy) and [Cloudflare](https://www.cloudflare.com/privacypolicy/)) receive your IP address and basic device details, such as the iOS version, with each request. Our server logs record the time and address requested, including search words, but not your IP address, so a logged search can't be tied to you. We use these logs only to keep the service running and secure, and they are deleted automatically after a short period.
 
 ## What we don't do
 
